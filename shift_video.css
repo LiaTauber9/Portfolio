@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    height: 80vh;
+}
+
+a{
+    font-size: large;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+}

@@ -84,7 +84,7 @@ body * {
 }
 
 
-a, a:hover, a:focus, a:active {
+a, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
@@ -94,6 +94,8 @@ a, a:hover, a:focus, a:active {
 }
 
 a:hover {
+    text-decoration: none;
+    color: inherit;
     transform: rotate(15deg);
     transition: all 0.3s;
 }

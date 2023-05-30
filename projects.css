@@ -22,6 +22,10 @@
     top: 0;
     height: auto;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(228, 225, 225);
     justify-items: center;
     align-items: center;
@@ -45,6 +49,9 @@
     flex-wrap: wrap;
     gap: 1.3rem;
     margin: auto;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .cardWraper{
@@ -76,7 +83,7 @@
 }
 
 .projectCard:hover{
-    transform: rotate(15deg);
+    transform: rotate(0deg);
     transition: all 0.3s;
 }
 
